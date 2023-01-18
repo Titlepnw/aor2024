@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="panuwat sittirat">
+    <title>Table-Panuwat</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 30px;
+            width: 50%;
+        }
+        th{
+            width: 50px;
+            padding: 10px;
+            border: 10px;
+            color: ghostwhite;
+            background-color:rgb(189, 214, 121);
+        }
+        tr,td{
+            border: 15px;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #DDD;      
+        }
+        img{
+            width: 80% ; height: 80%;
+        }
+        u{
+            color: blue;
+        }
+     </style>
+        
+</head>
+<body>
+    <h1>Welcome to panuwat Homepage</h1>
+    <hr>
+    <h4 align="right"><a href="home.html">Back to Home</a></h4>
+    <h2 style="text-align: center;">รายการสินค้า</h2>
+    <table border="none" align="center">
+        <thead>
+            <tr>
+                <th>รหัสสินค้า</th>
+                <th>ภาพสินค้า</th>
+                <th style="width: 40%;">ชื่อสินค้า</th>
+                <th>ราคา</th>
+                <th>ดำเนินการ</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>P001</td>
+                <td><img src="https://tse1.mm.bing.net/th?id=OIP.X-2vNN2t6wkYzwWfbsdYvgHaGe&pid=Api&P=0" alt="แซนด์วิช"></td>
+                <td style="text-align: left;">sandwich</td>
+                <td >150</td>
+                <td style="background-color: bisque;"><u>delete</u></td>
+            </tr>
+
+            <tr>
+                <td>P002</td>
+                <td><img src="http://i.huffpost.com/gen/1137413/thumbs/o-325000-HAMBURGER-facebook.jpg" alt="แฮมเบอร์เกอร์"></td>
+                <td style="text-align: left;">Hamburger</td>
+                <td>150</td>
+                <td style="background-color: bisque;"><u>delete</u></td>
+            </tr>
+
+            <tr>
+                <td>P003</td>
+                <td><img src="https://tse2.mm.bing.net/th?id=OIP.-EozSSln-ybYDwpC_Xch1wHaGW&pid=Api&P=0" alt="ครัวซองต์"></td>
+                <td style="text-align: left;">Croissants</td>
+                <td>250</td>
+                <td style="background-color: bisque;"><u>delete</u></td>
+            </tr>
+
+            <tr>
+                <td>P004</td>
+                <td><img src="https://i.pinimg.com/originals/22/24/ad/2224ad821ad025ecb3b3ef78a6a3a382.jpg" alt="ขนมปังไส้กรอก"></td>
+                <td style="text-align: left;">Sausage bread</td>
+                <td>99</td>
+                <td style="background-color: bisque;"><u>delete</u></td>
+            </tr>
+
+            <tr style="background-color:rgb(212, 202, 193);">
+                <td colspan="4" style="text-align: right;">ราคารวม : 649 บาท</td>  
+                <td><button type="submit">Order<br>Now</button></td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
