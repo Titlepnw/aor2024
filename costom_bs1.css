@@ -1,0 +1,13 @@
+.mycircle{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+.mybggrey{
+    background: #504f4f;
+}
+.my-hr{
+    border: 1px brown;
+    opacity: 1;
+
+}
